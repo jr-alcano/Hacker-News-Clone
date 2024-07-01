@@ -1,0 +1,39 @@
+/* Lists of stories */
+.stories-list {
+  margin: 20px 5px;
+}
+
+.stories-list > li {
+  color: gray;
+  font-size: 0.8rem;
+  margin: 10px 0;
+}
+
+/* Loading message */
+#stories-loading-msg {
+  font-weight: bold;
+  font-size: 150%;
+  margin: 20px 30px;
+}
+
+/* Individual stories */
+.story-link {
+  color: black;
+  font-size: 0.85rem;
+  font-weight: normal;
+  margin: 0; 
+  display: inline
+}
+
+
+.story-author {
+  display: block; /* Display as block to move it to a new line */
+  margin-top: 5px; /* Add margin to the top */
+  margin-bottom: 5px; /* Add margin to the bottom */
+  color: green
+}
+
+.story-user {
+  display: block; 
+  color: orange
+}
